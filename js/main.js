@@ -114,6 +114,15 @@ $(function() {
     }
 });
 
+$(function() {
+	$('.about-scroll').on('click', scrollDown);
+
+	function scrollDown() {
+		element = $('.about-banner');
+		offset = element.offset();
+		$('html, body').animate({scrollTop: offset.top}, 500, 'linear');
+	}
+});
 
 jQuery(document).ready(function($){
 	//open/close lateral filter
