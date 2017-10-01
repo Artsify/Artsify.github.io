@@ -42,7 +42,7 @@
 
 </head>
 
-<body>
+<body onload="updateTotals()">
 
   <!--Navigation-->
   <nav id='cssmenu'>
@@ -93,7 +93,7 @@
           <div class="_column product-info">
             <h4 class="product-name">{{=name}}</h4>
             <p class="product-desc">{{=desc}}</p>
-            
+
           </div>
           <div class="_column product-modifiers" data-product-price="{{=price}}">
             <div class="_grid row">
@@ -129,6 +129,11 @@
       <div class="_column checkout">
         <button class="_btn checkout-btn entypo-forward">Checkout</button>
       </div>
+      <script>
+        $(document).ready(function(){
+         app.updateTotals();
+        });
+      </script>
     </footer>
 
   </section>
