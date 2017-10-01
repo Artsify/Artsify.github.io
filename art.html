@@ -25,18 +25,11 @@
     <link href="css/edit.css" rel="stylesheet">
     <link href="css/modal_img.css" rel="stylesheet">
 
-  	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 
-  	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-  	<link rel="stylesheet" href="css/filter_style.css"> <!-- Resource style -->
-  	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/filter_style.css"> <!-- Resource style -->
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
@@ -96,24 +89,32 @@
         <header class="cd-header">
         </header>
         <main class="cd-main-content">
-      		<div class="cd-tab-filter-wrapper">
-      			<div class="cd-tab-filter">
-      				<ul class="cd-filters">
-      					<li class="placeholder">
-      						<a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
-      					</li>
-      					<li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
+          <div class="cd-tab-filter-wrapper">
+            <div class="cd-tab-filter">
+              <ul class="cd-filters">
+                <li class="placeholder">
+                  <a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
+                </li>
+                <li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
                 <!--
                 <li class="filter" data-filter=".color-1"><a href="#0" data-type="color-1">Featured Artists</a></li>
                 -->
                 <li class="filter" data-filter=".color-2"><a href="#0" data-type="color-2">Popular Works</a></li>
               </ul> <!-- cd-filters -->
-      			</div> <!-- cd-tab-filter -->
-      		</div> <!-- cd-tab-filter-wrapper -->
+            </div> <!-- cd-tab-filter -->
+          </div> <!-- cd-tab-filter-wrapper -->
 
-      		<section class="cd-gallery">
-      			<ul>
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC68.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+          <section class="cd-gallery">
+
+
+
+
+<div class="container">
+  <div class="row">
+    <ul class="art-grid">
+
+
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC68.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$5,600.00</h4>
@@ -134,7 +135,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC67.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC67.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$5,600.00</h4>
@@ -155,7 +156,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC66.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC66.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$5,600.00</h4>
@@ -176,7 +177,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC65.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC65.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$5,600.00</h4>
@@ -197,7 +198,8 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC64.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC64.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$5,600.00</h4>
@@ -218,7 +220,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC63.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC63.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$5,600.00</h4>
@@ -239,7 +241,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC62.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC62.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$5,600.00</h4>
@@ -260,7 +262,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC61.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC61.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$5,600.00</h4>
@@ -281,7 +283,8 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC60.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC60.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$5,600.00</h4>
@@ -302,7 +305,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC59.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC59.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$5,600.00</h4>
@@ -323,7 +326,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC29.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC29.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$5,600.00</h4>
@@ -344,7 +347,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC28.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC28.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$5,600.00</h4>
@@ -365,7 +368,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC27.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC27.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$5,600.00</h4>
@@ -386,7 +389,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC26.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC26.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$5,600.00</h4>
@@ -407,7 +410,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC20.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC20.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$5,600.00</h4>
@@ -428,7 +431,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC19.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/PC19.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$5,600.00</h4>
@@ -450,7 +453,7 @@
               </li>
 
               <!--
-      				<li class="mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/1.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/MarilynHenrion/1.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -471,7 +474,7 @@
                 </div>
               </li>
 
-      				<li class="mix color-2 check2 radio2 option2"><img src="img/Art/MarilynHenrion/2.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check2 radio2 option2"><img src="img/Art/MarilynHenrion/2.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -491,7 +494,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/3.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/3.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -511,7 +514,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/4.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/4.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -531,7 +534,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/5.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/5.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -551,7 +554,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/6.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/6.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -571,7 +574,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/7.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/7.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -591,7 +594,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/8.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/8.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$1,000.00</h4>
@@ -611,7 +614,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/9.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/9.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$1,000.00</h4>
@@ -631,7 +634,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/10.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/10.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -651,7 +654,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/11.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/11.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -671,7 +674,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/12.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/12.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -691,7 +694,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/13.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/13.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -711,7 +714,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/14.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/14.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -731,7 +734,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/15.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/MarilynHenrion/15.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -754,7 +757,7 @@
 
               <!--Ann Hosfeld's Works -->
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/Artwork/AnnHosfeld/Agave.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/Artwork/AnnHosfeld/Agave.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$2,500</h4>
@@ -764,7 +767,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/Artwork/AnnHosfeld/AgaveSunset.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/Artwork/AnnHosfeld/AgaveSunset.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$5,200</h4>
@@ -774,7 +777,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/Artwork/AnnHosfeld/Fantasy.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/Artwork/AnnHosfeld/Fantasy.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$4,800</h4>
@@ -785,35 +788,35 @@
               </li>
 
               <!--
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/AnnHosfeld/Agave.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/AnnHosfeld/Agave.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/AnnHosfeld/AgaveSunset.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/AnnHosfeld/AgaveSunset.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li> 
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/AnnHosfeld/Fantasy.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/AnnHosfeld/Fantasy.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li> -->
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/AnnHosfeld/JungleSpirits.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/AnnHosfeld/JungleSpirits.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/AnnHosfeld/MaguayIII.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/AnnHosfeld/MaguayIII.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/AnnHosfeld/MysticLight.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/AnnHosfeld/MysticLight.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/AnnHosfeld/ShadowShapes.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/AnnHosfeld/ShadowShapes.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/AnnHosfeld/SpringLight.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/AnnHosfeld/SpringLight.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/AnnHosfeld/UnaPiantaRossa.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/AnnHosfeld/UnaPiantaRossa.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
               <!--Bill Santelli's Works -->
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/path1.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/path1.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right"></h4>
@@ -823,7 +826,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/path2.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/path2.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right"></h4>
@@ -833,7 +836,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/path11.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/path11.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right"></h4>
@@ -843,7 +846,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/path12.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/path12.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right"></h4>
@@ -853,7 +856,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/path29.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/path29.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right"></h4>
@@ -863,7 +866,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/path31.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/path31.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right"></h4>
@@ -873,7 +876,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/stellar1.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/stellar1.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right"></h4>
@@ -883,7 +886,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/stellar4.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/stellar4.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right"></h4>
@@ -893,7 +896,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/stellar5.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/stellar5.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right"></h4>
@@ -903,7 +906,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/stellar6.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/stellar6.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right"></h4>
@@ -913,7 +916,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/stellar7.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/stellar7.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right"></h4>
@@ -923,7 +926,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/stellar8.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/stellar8.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right"></h4>
@@ -933,7 +936,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/stellar11.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/BillSantelli/stellar11.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right"></h4>
@@ -943,7 +946,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check1 radio2 option3"><img src="img/Art/EdwardHenrion/1.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio2 option3"><img src="img/Art/EdwardHenrion/1.jpg" alt="Image 2" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right"></h4>
@@ -953,7 +956,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/EdwardHenrion/2.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/EdwardHenrion/2.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -973,7 +976,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/EdwardHenrion/3.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/EdwardHenrion/3.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -993,7 +996,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/EdwardHenrion/4.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/EdwardHenrion/4.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -1013,7 +1016,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/EdwardHenrion/5.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/EdwardHenrion/5.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -1033,7 +1036,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/EdwardHenrion/6.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/EdwardHenrion/6.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -1053,7 +1056,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/EdwardHenrion/7.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/EdwardHenrion/7.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -1073,7 +1076,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/EdwardHenrion/8.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/EdwardHenrion/8.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -1093,7 +1096,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/EdwardHenrion/9.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/EdwardHenrion/9.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -1113,7 +1116,7 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio3 option1"><img src="img/Art/EdwardHenrion/10.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option1"><img src="img/Art/EdwardHenrion/10.jpg" alt="Image 3" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity">
                 <div class="desc">
                   <h4 class="pull-right">$6,000.00</h4>
@@ -1133,180 +1136,218 @@
                 </div>
               </li>
 
-              <li class="mix color-1 check3 radio2 option4"><img src="img/Art/MarkRichardson/1.jpg" alt="Image 4" style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio2 option4"><img src="img/Art/MarkRichardson/1.jpg" alt="Image 4" style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-1 check1 radio3 option2"><img src="img/Art/MarkRichardson/2.jpg" alt="Image 5"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio3 option2"><img src="img/Art/MarkRichardson/2.jpg" alt="Image 5"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check2 radio3 option3"><img src="img/Art/MarkRichardson/3.jpg" alt="Image 6"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check2 radio3 option3"><img src="img/Art/MarkRichardson/3.jpg" alt="Image 6"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check2 radio2 option1"><img src="img/Art/MarkRichardson/4.jpg" alt="Image 7"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check2 radio2 option1"><img src="img/Art/MarkRichardson/4.jpg" alt="Image 7"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-1 check1 radio3 option4"><img src="img/Art/MarkRichardson/5.jpg" alt="Image 8"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check1 radio3 option4"><img src="img/Art/MarkRichardson/5.jpg" alt="Image 8"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio2 option3"><img src="img/Art/MarkRichardson/6.jpg" alt="Image 9"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio2 option3"><img src="img/Art/MarkRichardson/6.jpg" alt="Image 9"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-1 check3 radio2 option4"><img src="img/Art/MarkRichardson/7.jpg" alt="Image 10"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio2 option4"><img src="img/Art/MarkRichardson/7.jpg" alt="Image 10"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-1 check3 radio3 option2"><img src="img/Art/MarkRichardson/8.jpg" alt="Image 11"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-1 check3 radio3 option2"><img src="img/Art/MarkRichardson/8.jpg" alt="Image 11"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/MarkRichardson/9.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/MarkRichardson/9.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art5.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art5.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art4.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art4.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art3.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art3.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art2.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art2.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art1.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art1.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art6.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art6.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art7.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art7.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art8.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art8.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art9.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art9.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art9.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/Artwork/art9.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/MarilynHenrion/5.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/MarilynHenrion/5.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <li class="mix color-2 check1 radio3 option1"><img src="img/Art/MarilynHenrion/6.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <li class="art-card mix color-2 check1 radio3 option1"><img src="img/Art/MarilynHenrion/6.jpg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>
 
-              <!--<li class="mix color-2 check1 radio3 option1"><img src="img/Artwork/art10.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
+              <!--<li class="art-card mix color-2 check1 radio3 option1"><img src="img/Artwork/art10.jpeg" alt="Image 12"style="width:100%;cursor:zoom-in"
               onclick="onClick(this)" class="w3-hover-opacity"><div class="desc">Add a description of the image here</div></li>-->
 
 
               <li class="gap"></li>
-      				<li class="gap"></li>
-      				<li class="gap"></li>
-      			</ul>
-      			<div class="cd-fail-message">No results found</div>
-      		</section> <!-- cd-gallery -->
+              <li class="gap"></li>
+              <li class="gap"></li>
 
 
-   		  <div class="cd-filter">
-      			<form>
+
+
+
+
+
+
+
+    </ul>
+
+
+    <hr>
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="cd-fail-message">No results found</div>
+          </section> <!-- cd-gallery -->
+
+
+        <div class="cd-filter">
+            <form>
 
               <div class="cd-filter-block">
-      					<h4>Search</h4>
-      					<div class="cd-filter-content">
-      						<input type="search" placeholder="Keywords">
-      					</div> <!-- cd-filter-content -->
-      				</div> <!-- cd-filter-block -->
+                <h4>Search</h4>
+                <div class="cd-filter-content">
+                  <input type="search" placeholder="Keywords">
+                </div> <!-- cd-filter-content -->
+              </div> <!-- cd-filter-block -->
 
               <div class="cd-filter-block">
-      					<h4>Price</h4>
-      					<div class="cd-filter-content">
-      						<div class="cd-select cd-filters">
-      							<select class="filter" name="selectThis" id="selectThis">
-      								<option value="">Choose a price range</option>
-      								<option value=".option1">Under $500</option>
-      								<option value=".option2">$501 - $1,000</option>
-      								<option value=".option3">$1,001 - $5,000</option>
-      								<option value=".option4">Above $5,001</option>
-      							</select>
-      						</div> <!-- cd-select -->
-      					</div> <!-- cd-filter-content -->
-      				</div> <!-- cd-filter-block -->
+                <h4>Price</h4>
+                <div class="cd-filter-content">
+                  <div class="cd-select cd-filters">
+                    <select class="filter" name="selectThis" id="selectThis">
+                      <option value="">Choose a price range</option>
+                      <option value=".option1">Under $500</option>
+                      <option value=".option2">$501 - $1,000</option>
+                      <option value=".option3">$1,001 - $5,000</option>
+                      <option value=".option4">Above $5,001</option>
+                    </select>
+                  </div> <!-- cd-select -->
+                </div> <!-- cd-filter-content -->
+              </div> <!-- cd-filter-block -->
 
-      				<div class="cd-filter-block">
-      					<h4>Style</h4>
+              <div class="cd-filter-block">
+                <h4>Style</h4>
 
-      					<ul class="cd-filter-content cd-filters list">
-      						<li>
-      							<input class="filter" data-filter=".check1" type="checkbox" id="checkbox1">
-      							<label class="checkbox-label" for="checkbox1">Expressionism</label>
-      						</li>
+                <ul class="cd-filter-content cd-filters list">
+                  <li>
+                    <input class="filter" data-filter=".check1" type="checkbox" id="checkbox1">
+                    <label class="checkbox-label" for="checkbox1">Expressionism</label>
+                  </li>
 
-      						<li>
-      							<input class="filter" data-filter=".check2" type="checkbox" id="checkbox2">
-      							<label class="checkbox-label" for="checkbox2">Pop Art</label>
-      						</li>
+                  <li>
+                    <input class="filter" data-filter=".check2" type="checkbox" id="checkbox2">
+                    <label class="checkbox-label" for="checkbox2">Pop Art</label>
+                  </li>
 
-      						<li>
-      							<input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
-      							<label class="checkbox-label" for="checkbox3">Naturalism</label>
-      						</li>
+                  <li>
+                    <input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
+                    <label class="checkbox-label" for="checkbox3">Naturalism</label>
+                  </li>
                   <li>
                     <input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
                     <label class="checkbox-label" for="checkbox4">Other</label>
                   </li>
-      					</ul> <!-- cd-filter-content -->
-      				</div> <!-- cd-filter-block -->
+                </ul> <!-- cd-filter-content -->
+              </div> <!-- cd-filter-block -->
 
-      				<div class="cd-filter-block">
-      					<h4>Subject</h4>
+              <div class="cd-filter-block">
+                <h4>Subject</h4>
 
-      					<div class="cd-filter-content">
-      						<div class="cd-select cd-filters">
-      							<select class="filter" name="selectThis" id="selectThis">
-      								<option value="">Choose a subject</option>
-      								<option value=".option1">Animals</option>
-      								<option value=".option2">Cityscape</option>
-      								<option value=".option3">Fashion</option>
-      								<option value=".option4">Landscape</option>
+                <div class="cd-filter-content">
+                  <div class="cd-select cd-filters">
+                    <select class="filter" name="selectThis" id="selectThis">
+                      <option value="">Choose a subject</option>
+                      <option value=".option1">Animals</option>
+                      <option value=".option2">Cityscape</option>
+                      <option value=".option3">Fashion</option>
+                      <option value=".option4">Landscape</option>
                       <option value=".option5">Other</option>
-      							</select>
-      						</div> <!-- cd-select -->
-      					</div> <!-- cd-filter-content -->
-      				</div> <!-- cd-filter-block -->
+                    </select>
+                  </div> <!-- cd-select -->
+                </div> <!-- cd-filter-content -->
+              </div> <!-- cd-filter-block -->
 
-      				<div class="cd-filter-block">
-      					<h4>Medium</h4>
+              <div class="cd-filter-block">
+                <h4>Medium</h4>
 
-      					<ul class="cd-filter-content cd-filters list">
-      						<li>
-      							<input class="filter" data-filter="" type="radio" name="radioButton" id="radio1" checked>
-      							<label class="radio-label" for="radio1">All</label>
-      						</li>
+                <ul class="cd-filter-content cd-filters list">
+                  <li>
+                    <input class="filter" data-filter="" type="radio" name="radioButton" id="radio1" checked>
+                    <label class="radio-label" for="radio1">All</label>
+                  </li>
 
-      						<li>
-      							<input class="filter" data-filter=".radio2" type="radio" name="radioButton" id="radio2">
-      							<label class="radio-label" for="radio2">Collage</label>
-      						</li>
+                  <li>
+                    <input class="filter" data-filter=".radio2" type="radio" name="radioButton" id="radio2">
+                    <label class="radio-label" for="radio2">Collage</label>
+                  </li>
 
-      						<li>
-      							<input class="filter" data-filter=".radio3" type="radio" name="radioButton" id="radio3">
-      							<label class="radio-label" for="radio3">Painting</label>
-      						</li>
+                  <li>
+                    <input class="filter" data-filter=".radio3" type="radio" name="radioButton" id="radio3">
+                    <label class="radio-label" for="radio3">Painting</label>
+                  </li>
                   <li>
                     <input class="filter" data-filter=".radio4" type="radio" name="radioButton" id="radio4">
                     <label class="radio-label" for="radio4">Other</label>
                   </li>
-      					</ul> <!-- cd-filter-content -->
-      				</div> <!-- cd-filter-block -->
-      			</form>
+                </ul> <!-- cd-filter-content -->
+              </div> <!-- cd-filter-block -->
+            </form>
 
-      			<a href="#0" class="cd-close">Close</a>
-      		</div>
-      		<!-- cd-filter -->
+            <a href="#0" class="cd-close">Close</a>
+          </div>
+          <!-- cd-filter -->
 
-      		<a href="#0" class="cd-filter-trigger">Filters</a>
-      	</main> <!-- cd-main-content -->
+          <a href="#0" class="cd-filter-trigger">Filters</a>
+        </main> <!-- cd-main-content -->
         <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
         <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
         <div class="w3-modal-content w3-animate-zoom">
@@ -1441,6 +1482,7 @@
    <script src="js/jquery.mixitup.min.js"></script>
    <script src="js/filter_main.js"></script> <!-- Resource jQuery -->
 
+
    <script>
    function openModal() {
      document.getElementById('myModal').style.display = "block";
@@ -1480,12 +1522,16 @@
    }
    </script>
 
+
+
    <script>
     function onClick(element) {
       document.getElementById("img01").src = element.src;
       document.getElementById("modal01").style.display = "block";
     }
   </script>
+
+<script src="js/pinterest_grid.js"></script>
 
 </body>
 
