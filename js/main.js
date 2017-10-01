@@ -74,6 +74,7 @@ $(function() {
     $('#register-btn-bronze').click( function () { registerBtnClick() });
     $('#register-btn-silver').click( function () { registerBtnClick() });
     $('#register-btn-gold').click( function () { registerBtnClick() });
+	$('#click-to-sign-up').click( function () { registerBtnClick() });
 
     function registerBtnClick () {
         $('#login-btn').click();
