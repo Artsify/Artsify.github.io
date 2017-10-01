@@ -115,7 +115,7 @@ nav{position:absolute;width:100%;margin:0 auto;top:0; margin-top: -56px; z-index
 #cssmenu ul ul{position:absolute;left:-9999px}
 
 /* Background when hovering over submenus*/
-#cssmenu ul ul li{height:0;-webkit-transition:all .25s ease;-ms-transition:all .25s ease;background:#333;transition:all .25s ease}
+#cssmenu ul ul li{height:0;-webkit-transition:all .25s ease;-ms-transition:all .25s ease;background:#2b182d;transition:all .25s ease}
 #cssmenu ul ul li:hover{}
 #cssmenu li:hover > ul{left:auto}
 #cssmenu li:hover > ul > li{height:35px}

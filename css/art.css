@@ -45,3 +45,8 @@ http://www.jqueryscript.net/layout/Simple-jQuery-Plugin-To-Create-Pinterest-Styl
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
+.artwork-image {
+  width: 100%;
+  cursor: zoom-in;
+}
