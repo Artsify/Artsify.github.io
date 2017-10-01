@@ -1,4 +1,4 @@
-/* 
+/*
 Kool Store Template
 http://www.templatemo.com/preview/templatemo_428_kool_store
 */
@@ -691,9 +691,9 @@ ul.product-buttons li {
   color: white;
 }
 
-form input[type="text"], 
-form input[type="email"], 
-form input[type="number"], 
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
 form input[type="password"],
 textarea {
   background: #fff;
@@ -851,7 +851,7 @@ ul.follow-us li a i {
 }
 
 /*------------------------------------------------------
-	RESPONSIVE STYLES 
+	RESPONSIVE STYLES
 --------------------------------------------------------*/
 @media (max-width: 991px) {
   ul.menu {
