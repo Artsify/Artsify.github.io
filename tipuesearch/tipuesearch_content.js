@@ -17,6 +17,7 @@
 
 
 
-var tipuesesearch = {"pages": [
+var tipuesearch = {"pages": [
      {"title":"Artsify", "text": "Artsify Artsify Art Artists About About Artsify Our Team Membership Plans Contact Log In Sign Up Category Style Subject Medium Tag Popular Featured Artists Popular Works Featured Works Patchwork City 68 Marilyn Henrion 35 reviews Patchwork City 67 Marilyn Henrion 35 reviews Patchwork City 66 Marilyn Henrion 35 reviews Gray Rock Triptych Marilyn Henrion 35 reviews Lake Rock Triptych Marilyn Henrion 25 reviews Green Sea Marilyn Henrion 22 reviews New To Artsify Abstract I Mark Richardson 15 reviews Abstract II Mark Richardson 15 reviews Abstract III Mark Richardson 15 reviews Abstract IV Mark Richardson 15 reviews Abstract V Mark Richardson 10 reviews Abstract VI Mark Richardson 5 reviews × Copyright © Artsify 2017 Artsify Type your username and password. Remember me Login Forgot Password? Register Type your e-mail. Send Log In Register Create an account. Register Log In Forgot Password?", "url": "http://artsify.me/"}
 ]};
+

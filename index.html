@@ -120,7 +120,7 @@
                 </div>
             </li>  
           -->
-            <form action="search.html">
+            <form action="index.html">
               <div class="tipue_search_left"><img src="tipuesearch/search.png" class="tipue_search_icon"></div>
               <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required></div>
             </form>
@@ -559,18 +559,18 @@
     <!-- Custom JavaScript -->
    <script src="js/main.js"></script>
 
-   <script>
-     $(document).ready(function() {
-         $('#tipue_search_input').tipuesearch();
-    });
-    </script>
-
 
    <script>
     function onClick(element) {
       document.getElementById("img01").src = element.src;
       document.getElementById("modal01").style.display = "block";
     }
+  </script>
+
+  <script>
+     $(document).ready(function() {
+         $('#tipue_search_input').tipuesearch();
+    });
   </script>
 
 </body>
