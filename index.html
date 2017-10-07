@@ -112,7 +112,7 @@
             <li id = "searchbar">
                 <div id="custom-search-input">
                     <div class="input-group col-md-12">
-                        <input id = "search-input" type="text" class="search-query form-control" placeholder="Search or type keywords" />
+                        <input id = "search-input" type="text" onkeypress="return runScript(event)" class="search-query form-control" placeholder="Search or type keywords" />
                         <span class="input-group-btn">
                             <button onclick = "myFunction()" class="btn btn-danger" type="button">
                                 <span class=" glyphicon glyphicon-search"></span>
@@ -577,6 +577,14 @@
       location.href = "http://artsify.me/search.html?q=" + search;
     }
 
+    function runScript(e) {
+      if (event.which == 13 || event.keyCode == 13) {
+        var search = document.getElementById("search-input").value;
+        location.href = "http://artsify.me/search.html?q=" + search;
+        return false;
+    }
+      return true;
+    }
   </script>
 
 
