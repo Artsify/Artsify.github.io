@@ -1,6 +1,6 @@
 .team{
     font-family: 'Quicksand', sans-serif;
-    padding:75px 0;
+    padding:15px 0;
 }
 h3.description{
 	font-weight: bold;
@@ -34,6 +34,7 @@ h3.description{
 .profile .img-box.advisor{
     height: 220px;
     width: 220px;
+    margin: auto;
 }
 
 .profile .img-box:after{
