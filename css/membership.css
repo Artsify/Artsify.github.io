@@ -1,6 +1,10 @@
 #membership {
     font-family: 'Varela Round';  
 }
+
+#membership .col-sm-4 {
+    padding-bottom: 20px;
+}
 .mega-pricing-item {
     background: #fff none repeat scroll 0 0;
     box-shadow: 0 0 10px #f1f1f1;

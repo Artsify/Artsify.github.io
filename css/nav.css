@@ -126,8 +126,8 @@ nav{position:absolute;width:100%;margin:0 auto;top:0; margin-top: -56px; z-index
 #cssmenu ul ul li.has-sub > a:after{position:absolute;top:16px;right:11px;width:8px;height:2px;display:block;background:#ddd;content:''}
 #cssmenu ul ul li.has-sub > a:before{position:absolute;top:13px;right:14px;display:block;width:2px;height:8px;background:#ddd;content:'';-webkit-transition:all .25s ease;-ms-transition:all .25s ease;transition:all .25s ease}
 #cssmenu ul ul > li.has-sub:hover > a:before{top:17px;height:0}
-#cssmenu ul ul li.has-sub:hover,#cssmenu ul li.has-sub ul li.has-sub ul li:hover{background:#363636;}
-#cssmenu ul ul ul li.active a{border-left:1px solid #333}
+#cssmenu ul ul li.has-sub:hover,#cssmenu ul li.has-sub ul li.has-sub ul li:hover{background:#29142b;}
+#cssmenu ul ul ul li.active a{border-left:1px solid #331d35}
 #cssmenu > ul > li.has-sub > ul > li.active > a,#cssmenu > ul ul > li.has-sub > ul > li.active> a{border-top:1px solid #333}
 
 @media screen and (max-width:800px){
@@ -144,16 +144,16 @@ nav{width:100%;}
 #cssmenu{width:100%}
 #cssmenu ul{width:100%;display:none}
 #cssmenu ul li{width:100%;border-top:1px solid #444}
-#cssmenu ul li:hover{background:#363636;}
+#cssmenu ul li:hover{background:#331d35;}
 #cssmenu ul ul li,#cssmenu li:hover > ul > li{height:auto}
 #cssmenu ul li a,#cssmenu ul ul li a{width:100%;border-bottom:0}
 #cssmenu > ul > li{float:none}
 #cssmenu ul ul li a{padding-left:25px}
-#cssmenu ul ul li{background:#333!important;}
+#cssmenu ul ul li{background:#29142b;}
 li#searchbar{
    display:none !important;
 }
-#cssmenu ul ul li:hover{background:#363636!important}
+#cssmenu ul ul li:hover{background:#29142b}
 #cssmenu ul ul ul li a{padding-left:35px}
 #cssmenu ul ul li a{color:#ddd;background:none}
 #cssmenu ul ul li:hover > a,#cssmenu ul ul li.active > a{color:#fff}
@@ -165,8 +165,8 @@ li#searchbar{
 .button:before{-webkit-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;position:absolute;top:16px;right:20px;display:block;height:2px;width:20px;background:#ddd;content:''}
 .button.menu-opened:after{-webkit-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;top:23px;border:0;height:2px;width:19px;background:#fff;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}
 .button.menu-opened:before{top:23px;background:#fff;width:19px;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg)}
-#cssmenu .submenu-button{position:absolute;z-index:99;right:0;top:0;display:block;border-left:1px solid #444;height:46px;width:46px;cursor:pointer}
-#cssmenu .submenu-button.submenu-opened{background:#262626}
+#cssmenu .submenu-button{position:absolute;z-index:99;right:0;top:0;display:block;border-left:1px solid #331d35;height:46px;width:46px;cursor:pointer}
+#cssmenu .submenu-button.submenu-opened{background:#29142b}
 #cssmenu ul ul .submenu-button{height:34px;width:34px}
 #cssmenu .submenu-button:after{position:absolute;top:22px;right:19px;width:8px;height:2px;display:block;background:#ddd;content:''}
 #cssmenu ul ul .submenu-button:after{top:15px;right:13px}
